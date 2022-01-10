@@ -1,0 +1,100 @@
+body{margin: 0px;padding: 0px;}
+header{
+    background-color: #969696bd;
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0%;
+}
+header ul{
+    position: relative;
+    width: 50%;
+    display: flex;
+    float: right;
+    list-style: none;
+}
+header ul li  {
+    width: 15%;
+    text-align: center;}
+    header ul li a   {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    } 
+header h1{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+
+}
+
+#home{
+    height: 100vh;
+    width: 100%;
+    background: #d6d6d6;
+}
+.banner {
+    background-image: url(images/pexels-photo-10470826.jpeg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90%;
+    
+    width: 50%;
+    float: left;
+}
+.data {
+    width: 50%;
+    float: right;
+    height: 40%;
+    margin-top: 20%;
+
+}
+
+#about {
+    height: 100vh;
+    width: 100%;
+    background: #eee;
+    text-align: center;
+    color: gray;
+    margin-top: -3%;
+    padding-top: 6%;
+    padding-left: 0%;
+}
+.intro h1{
+    font-size: x-large;
+}
+.intro h5{
+    font-size: large;
+    padding: 0% 7%;
+
+}
+
+#contact {
+    height: 100vh;
+    width: 100%;
+    background: #d7d7d7;
+    text-align: center;
+    color: gray;
+    margin-top: -6%;
+    padding-left: 0%;
+}
+#contact .form{
+    width: 50%;
+    height: 80%;
+    float: left;
+    margin-top: 15%;
+}
+#contact .image{
+    width: 50%;
+    background-image: url(images/pexels-photo-10470826.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    float: right;
+    transform: rotate(
+180deg);
+}
+
