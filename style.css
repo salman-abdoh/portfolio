@@ -111,6 +111,26 @@ header nav ul {
     #contact .form form textarea#fname{margin-left: 0px;}
 
 }
+@keyframes first{
+    0%{left: 0px;}
+    25% {background-color: yellow;; left: 200px;}
+    75%{right: 400px;}
+}
+.about-skills ul li {
+    padding: 5px;
+   
+    padding-left: 40px;
+ }
+ .about-skills {
+   
+    animation: first  5s linear 2s 1 alternate ;
+    
+ }
+ .about-expriance {
+   
+    animation: first  5s linear 5s 1 alternate ;
+    
+ }
 body{margin: 0px;padding: 0px;}
 header{
     font-family: cursive ;
@@ -229,6 +249,7 @@ main{
     grid-column: 1/5;
 
 }
+
 .intro{
 grid-column: 1/3;
 
@@ -259,12 +280,7 @@ grid-column: 1/3;
     margin-top: 15%;
 }
 
-.about  ul li i {
-    font-size: 16px;
-    margin-right: 5px;
-    color: #149ddd;
-    line-height: 0;
-}
+
 
 
 
@@ -353,10 +369,25 @@ footer ul li{
    text-align: left;
   
 }
+@keyframes first{
+    0%{left: 0px;}
+    25% {background-color: yellow;; left: 200px;}
+    75%{right: 400px;}
+}
 .about-skills ul li {
     padding: 5px;
-    
+   
     padding-left: 40px;
+ }
+ .about-skills {
+   
+    animation: first  5s linear 2s 1 alternate ;
+    
+ }
+ .about-expriance {
+   
+    animation: first  5s linear 5s 1 alternate ;
+    
  }
  .about-skills img{
     height: 70px;
@@ -438,14 +469,14 @@ footer ul li{
 }
 .service-desc img{
     width: 20vh;
-    height:115px;
+    height:144px;
 
     
 } 
 .service-desc1 img{
     width: 40vh;
     height:150px;
-
+  
     
 } 
 .srrvices1{
@@ -563,5 +594,21 @@ header nav ul {
         display: none;
     }
     #contact .form form textarea#fname{margin-left: 0px;}
+    @keyframes first{
+        0%{left: 0px;}
+        25% {background-color: yellow;; left: 200px;}
+        75%{right: 400px;}
+    }
+    
+     .about-skills {
+       
+        animation: first  5s linear 2s 1 alternate ;
+        
+     }
+     .about-expriance {
+       
+        animation: first  5s linear 5s 1 alternate ;
+        
+     }
 
 }
