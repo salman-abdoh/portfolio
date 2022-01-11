@@ -108,7 +108,7 @@ header nav ul {
     #contact  .image{
         display: none;
     }
-    #contact .form form textarea#fname{margin-left: 20px;}
+    #contact .form form textarea#fname{margin-left: 0px;}
 
 }
 body{margin: 0px;padding: 0px;}
@@ -562,6 +562,6 @@ header nav ul {
     #contact  .image{
         display: none;
     }
-    #contact .form form textarea#fname{margin-left: 20px;}
+    #contact .form form textarea#fname{margin-left: 0px;}
 
 }
