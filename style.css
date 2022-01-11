@@ -10,9 +10,10 @@ header{
 }
 header ul{
     width: 50%;
-    display: flex;
+    display: inline-flex;
     float: right;
     list-style: none;
+    margin-top: 20px;
 }
 header ul li  {
     width: 15%;
@@ -43,6 +44,9 @@ header nav h1 span{
     height: 100vh;
     width: 100%;
     background: #d6d6d6;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 .banner {
     background-image: url(images/pexels-photo-10470826.jpeg);
@@ -62,13 +66,14 @@ header nav h1 span{
     border-radius: 40px;
     width: 30%;
     float: right;
-    height: 60%;
+    height: 70%;
     margin-top: 150px;
     text-align: center;
     margin-right: 247px;
     background-color: #eeeeee;
     box-shadow: black;
-
+    display: grid;
+ 
 }
 .data:hover{
    
@@ -80,9 +85,24 @@ header nav h1 span{
     height: 150px;
     border:2px #9e9e9e7d solid ;
     border-radius: 50%;
-    padding: 5px;
+    padding: 2px;
+    margin-left: 30%;
+}
+#home .data h1{
+    margin: 0px;
+}
+#home .data h2{
+    margin: 0px;
+    height: 5px;
+    
+}
+#home .data h5{
+    margin: 0px;
 }
 
+#home .data h3{
+    font-size: 40px;
+}
 #about {
     height: 100vh;
     width: 100%;
@@ -92,6 +112,13 @@ header nav h1 span{
     margin-top: -3%;
     padding-top: 6%;
     padding-left: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.intro{
+grid-column: 1/3;
+
 }
 .intro h1{
     font-size: x-large;
@@ -137,8 +164,12 @@ footer{
     width: 100vw;
     height: 7vh;
 }
+footer p{
+    margin: 7px;
+}
 
 footer ul{
+    margin: 0px;
     text-align: center;
    
     
@@ -154,5 +185,62 @@ footer ul li{
     margin:0px 10px;
 
 }
+.about-skills {
+    color: #3e3e3e;
+    font-family: cursive;
+    width: 50%;
+    margin-left: 250px;
+    box-shadow: 0px 1px 7px 4px #00000047, inset 0px 0px 7px 4px #00000047;
+    border: 1px #9e9e9ebf solid;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #eeeeee;
+    box-shadow: black;
+    margin-bottom: 253px;
+}
+.about-skills ul h1 {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
 
+ }
+.about-skills ul li {
+   list-style: none;
+   text-align: left;
+  
+}
+.about-skills ul li {
+    padding: 5px;
+    
+    padding-left: 40px;
+ }
+.about-expriance {
+    color: #3e3e3e;
+    font-family: cursive;
+    width: 50%;
+    margin-left: 114px;
+    box-shadow: 0px 1px 7px 4px #00000047, inset 0px 0px 7px 4px #00000047;
+    border: 1px #9e9e9ebf solid;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #eeeeee;
+    box-shadow: black;
+    margin-bottom: 253px;
+}
 
+.about-expriance ul h1 {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+
+ }
+.about-expriance ul li {
+   list-style: none;
+   text-align: left;
+  
+}
+.about-expriance ul li {
+    
+    padding: 5px;
+    padding-left: 40px;
+ }
