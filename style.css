@@ -340,7 +340,7 @@ footer ul li{
 
     margin-top: 100px;
 }
-@media (max-width:500px){
+@media (max-width:600px){
     header{
         font-family: cursive ;
         background-color: #969696bd;
