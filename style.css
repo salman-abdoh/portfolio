@@ -1,5 +1,6 @@
 body{margin: 0px;padding: 0px;}
 header{
+    font-family: cursive ;
     background-color: #969696bd;
     color: white;
     width: 100vw;
@@ -31,6 +32,11 @@ header h1{
     float: left;
     margin-left: 5%;
 
+}
+header nav h1 span{
+    background-color: blanchedalmond;
+    border: 2px #9e9e9ebf solid;
+    border-radius: 50%;
 }
 
 #home{
