@@ -658,13 +658,13 @@ header nav ul {
         
      }
      #contact .form form input#fname{
-        width: 348px;
+        width: 330px;
         text-align: center;
         height: 30px;
         border-radius: 10px;
     }
     #contact .form form textarea#fname{
-        width: 355px;
+        width: 332px;
         height: 200px;
         border-radius: 10px;
     }
@@ -683,7 +683,7 @@ header nav ul {
         color: black;
         color: #3e3e3e;
         height: 30px;
-        width:327px;
+        width:315px;
         background-color: #fcfaff00;
         border: 2px #767676 solid;
         margin: 20px;
