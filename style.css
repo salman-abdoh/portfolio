@@ -569,7 +569,7 @@ header nav ul {
     }
     #about {
         display: flex;
-        height: 176vw;
+       
         width: 100%;
         text-align: center;
         justify-content: flex-start;
@@ -597,7 +597,7 @@ header nav ul {
         width: 100vw;
         padding: 0px;}
     #services{
-            height: 332vw;
+            height: 100%;
             width: 100vw;
             text-align : center;
         }
@@ -630,7 +630,7 @@ header nav ul {
     grid-template-columns: 1fr;
     margin: 0px;
     }
-    #services{    height: 331vw;}
+    #services{    height: 100%;}
     form{
         width: 100%;
       
@@ -658,23 +658,23 @@ header nav ul {
         
      }
      #contact .form form input#fname{
-        width: 400px;
+        width: 348px;
         text-align: center;
         height: 30px;
         border-radius: 10px;
     }
     #contact .form form textarea#fname{
-        width: 410px;
+        width: 355px;
         height: 200px;
         border-radius: 10px;
     }
     #contact .form form textarea#fname:hover{
-        width: 410px;
+        width:350pxpx;
         height: 200px;
       border: 1px yellow solid;
     }
     #contact .form form text#fname:hover{
-        width: 410px;
+        width: 351pxpx;
         height: 200px;
       border: 1px yellow solid;
     }
@@ -683,7 +683,7 @@ header nav ul {
         color: black;
         color: #3e3e3e;
         height: 30px;
-        width: 400px;
+        width:327px;
         background-color: #fcfaff00;
         border: 2px #767676 solid;
         margin: 20px;
@@ -697,7 +697,7 @@ header nav ul {
       border: 1px rgb(241, 241, 148) solid;
     }
     #contact{
-        height: 86vh;
+        height: 100%;
     }
 
     }
