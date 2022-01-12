@@ -267,12 +267,12 @@ grid-column: 1/3;
 }
 
 #contact {
-    height: 87vh;
+    height: 90vh;
     width: 100%;
     background: hsl(0deg 0% 0%);;
     text-align: center;
     color: hsl(45deg 93% 77%);;
-    margin-top: -6%;
+    margin-top:0;
     padding-left: 0%;
     grid-column: 1/5;
 }
@@ -484,11 +484,11 @@ footer ul li{
  }
  #services {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background: #d7d7d7;
     text-align: center;
     color: #3e3e3e;
-    margin-top: -6%;
+    margin-top: 0%;
     padding-left: 0%;
     grid-column: 1/5;
 }
@@ -518,6 +518,9 @@ footer ul li{
   
     
 } 
+#services .srrvices1 h1{
+    padding-top: 5%;
+}
 .srrvices1{
 
     margin-top: 0px;
@@ -595,7 +598,7 @@ header nav ul {
         padding: 0px;}
     #services{
             height: 332vw;
-            width: 100%;
+            width: 100vw;
             text-align : center;
         }
       
@@ -692,6 +695,9 @@ header nav ul {
         color: white;
         font-size: larger;
       border: 1px rgb(241, 241, 148) solid;
+    }
+    #contact{
+        height: 86vh;
     }
 
     }
