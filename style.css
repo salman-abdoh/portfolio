@@ -136,8 +136,8 @@ body{margin: 0px;padding: 0px;
 width: 100%;}
 header{
     font-family: cursive ;
-    background-color: #969696bd;
-    color: white;
+    background-color: hsl(0deg 0% 0%);;
+    color: hsl(45deg 93% 77%);
     width: 100vw;
     height: 10vh;
     position: fixed;
@@ -154,12 +154,12 @@ header ul li  {
     width: 15%;
     text-align: center;}
     header ul li a   {
-        color: white;
+        color: hsl(45deg 93% 77%);
         text-decoration: none;
         font-size: 20px;
     } 
     header ul li a:hover{
-color: darkkhaki;
+color: rgb(224, 215, 215);
 transform: scale(0.5);
 
    }
@@ -197,7 +197,7 @@ main{
     float: left;
 }
 .data {
-    color: #3e3e3e;
+    color: hsl(45deg 93% 77%);
     font-family: cursive;
     box-shadow: 0px 1px 7px 4px #00000000, inset 0px 0px 7px 4px #6e6e6ec9;
     border: 1px #9e9e9e82 solid;
@@ -208,7 +208,7 @@ main{
     margin-top: 97px;
     text-align: center;
     margin-right: 247px;
-    background-color: #eeeeee;
+    background-color: hsl(0deg 0% 0%);
     box-shadow: black;
     display: grid;
  
@@ -240,9 +240,9 @@ main{
 #about {
     height: 100vh;
     width: 100%;
-    background: #eee;
+    background: hsl(0deg 0% 0%);
     text-align: center;
-    color: gray;
+    color: hsl(0deg 0% 0%);
     margin-top: -3%;
     padding-top: 6%;
     padding-left: 0%;
@@ -253,6 +253,7 @@ main{
 }
 
 .intro{
+    color:hsl(45deg 93% 77%) ;
 grid-column: 1/3;
 
 }
@@ -266,20 +267,21 @@ grid-column: 1/3;
 }
 
 #contact {
-    height: 100vh;
+    height: 87vh;
     width: 100%;
-    background: #d7d7d7;
+    background: hsl(0deg 0% 0%);;
     text-align: center;
-    color: gray;
+    color: hsl(45deg 93% 77%);;
     margin-top: -6%;
     padding-left: 0%;
     grid-column: 1/5;
 }
 #contact .form{
+    
     width: 100%;
-   
+    padding-bottom: 50px;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 
@@ -301,32 +303,34 @@ grid-column: 1/3;
 
 #contact .form form input#fname{
     width: 400px;
+    color: black;
     text-align: center;
     height: 30px;
     border-radius: 10px;
 }
 #contact .form form textarea#fname{
     width: 410px;
+    color: black;
     height: 200px;
     border-radius: 10px;
 }
 #contact .form form textarea#fname:hover{
     width: 410px;
     height: 200px;
-  border: 1px yellow solid;
+  border: 1px hsl(45deg 59% 76%);
 }
 #contact .form form text#fname:hover{
     width: 410px;
     height: 200px;
-  border: 1px yellow solid;
+  border: 1px hsl(45deg 59% 76%);
 }
 
 #contact .form form input#bt1{
     color: black;
-    color: #3e3e3e;
+  
     height: 30px;
     width: 400px;
-    background-color: #fcfaff00;
+    background-color: #fcfaffbd;
     border: 2px #767676 solid;
     margin: 20px;
     border-radius: 10px;
@@ -334,13 +338,13 @@ grid-column: 1/3;
 }
 #contact .form form input#bt1:hover{
     background-color: rgb(22, 22, 22);
-    color: white;
+    color: hsl(45deg 93% 77%);;
     font-size: larger;
   border: 1px rgb(241, 241, 148) solid;
 }
 @keyframes socend{
     0%{left: 0px;}
-    25% {background-color: yellow;; left: 200px;}
+    25% {background-color: hsl(45deg 93% 77%);; left: 200px;}
     75%{right: 400px;}
 }
 
@@ -351,7 +355,7 @@ grid-column: 1/3;
  }
 footer{
     background: #d7d7d7;
-    
+    color: #3e3e3e;
    
     width: 100vw;
     height: 10vh;
@@ -359,6 +363,7 @@ footer{
 }
 footer p{
     margin: 0px;
+    padding-top: 15px;;
 }
 
 footer ul{
@@ -482,7 +487,7 @@ footer ul li{
     width: 100%;
     background: #d7d7d7;
     text-align: center;
-    color: gray;
+    color: #3e3e3e;
     margin-top: -6%;
     padding-left: 0%;
     grid-column: 1/5;
@@ -515,7 +520,7 @@ footer ul li{
 } 
 .srrvices1{
 
-    margin-top: 100px;
+    margin-top: 0px;
 }
 @media (max-width:600px){
     
