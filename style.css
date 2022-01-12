@@ -111,7 +111,7 @@ header nav ul {
     }
     #contact .form form textarea#fname{margin-left: 0px;}
 
-}
+
 @keyframes first{
     0%{left: 0px;}
     25% {background-color: yellow;; left: 200px;}
