@@ -136,7 +136,7 @@ body{margin: 0px;padding: 0px;
 width: 100%;}
 header{
     font-family: cursive ;
-    background-color: hsl(0deg 7% 3%);
+    background-color: hsl(0deg 0% 0%);;
     color: hsl(45deg 93% 77%);
     width: 100vw;
     height: 10vh;
@@ -694,4 +694,4 @@ header nav ul {
       border: 1px rgb(241, 241, 148) solid;
     }
 
-}
+    }
