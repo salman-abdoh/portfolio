@@ -1,6 +1,4 @@
-body{
-    box-sizing: border-box;
-}
+
 @media (max-width:600px){
     header{
         font-family: cursive ;
@@ -11,6 +9,7 @@ body{
         position: fixed;
         top: 0%;
     }
+    
     #home{
         display: grid;
         grid-auto-columns: 1fr;
@@ -135,13 +134,12 @@ header nav ul {
     animation: first  5s linear 5s 1 alternate ;
     
  }
-
 body{margin: 0px;padding: 0px;
 width: 100%;}
 header{
     font-family: cursive ;
-    background-color: hsl(0deg 0% 0%);;
-    color: hsl(45deg 93% 77%);
+    background-color: #969696bd;
+    color: white;
     width: 100vw;
     height: 10vh;
     position: fixed;
@@ -158,12 +156,12 @@ header ul li  {
     width: 15%;
     text-align: center;}
     header ul li a   {
-        color: hsl(45deg 93% 77%);
+        color: white;
         text-decoration: none;
         font-size: 20px;
     } 
     header ul li a:hover{
-color: rgb(224, 215, 215);
+color: darkkhaki;
 transform: scale(0.5);
 
    }
@@ -201,7 +199,7 @@ main{
     float: left;
 }
 .data {
-    color: hsl(45deg 93% 77%);
+    color: #3e3e3e;
     font-family: cursive;
     box-shadow: 0px 1px 7px 4px #00000000, inset 0px 0px 7px 4px #6e6e6ec9;
     border: 1px #9e9e9e82 solid;
@@ -212,7 +210,7 @@ main{
     margin-top: 97px;
     text-align: center;
     margin-right: 247px;
-    background-color: hsl(0deg 0% 0%);
+    background-color: #eeeeee;
     box-shadow: black;
     display: grid;
  
@@ -244,9 +242,9 @@ main{
 #about {
     height: 100vh;
     width: 100%;
-    background: hsl(0deg 0% 0%);
+    background: #eee;
     text-align: center;
-    color: hsl(0deg 0% 0%);
+    color: gray;
     margin-top: -3%;
     padding-top: 6%;
     padding-left: 0%;
@@ -257,7 +255,7 @@ main{
 }
 
 .intro{
-    color:hsl(45deg 93% 77%) ;
+ color:    hsl(0deg 0% 39%);
 grid-column: 1/3;
 
 }
@@ -271,21 +269,20 @@ grid-column: 1/3;
 }
 
 #contact {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    background: hsl(0deg 0% 0%);;
+    background: #d7d7d7;
     text-align: center;
-    color: hsl(45deg 93% 77%);;
-    margin-top:0;
+    color: gray;
+    margin-top: -6%;
     padding-left: 0%;
     grid-column: 1/5;
 }
 #contact .form{
-    
     width: 100%;
-    padding-bottom: 50px;
+   
     text-align: center;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 
@@ -307,63 +304,46 @@ grid-column: 1/3;
 
 #contact .form form input#fname{
     width: 400px;
-    color: black;
     text-align: center;
     height: 30px;
-    border-radius: 10px;
-}
-#contact .form form input#fname3{
-    width: 400px;
-    color: black;
-    text-align: center;
-    height: 30px;
-    border-radius: 10px;
-}
-#contact .form form textarea#fname2{
-    width: 400px;
-    height: 400px;
-    color: black;
-    text-align: center;
-    height: 200px;
     border-radius: 10px;
 }
 #contact .form form textarea#fname{
     width: 410px;
-    color: black;
     height: 200px;
     border-radius: 10px;
 }
 #contact .form form textarea#fname:hover{
     width: 410px;
     height: 200px;
-  border: 1px hsl(45deg 59% 76%);
+  border: 1px yellow solid;
 }
 #contact .form form text#fname:hover{
     width: 410px;
     height: 200px;
-  border: 1px hsl(45deg 59% 76%);
+  border: 1px yellow solid;
 }
 
-#contact .form form button#bt1{
+#contact .form form input#bt1{
     color: black;
-  
+    color: #3e3e3e;
     height: 30px;
     width: 400px;
-    background-color: #fcfaffbd;
+    background-color: #fcfaff00;
     border: 2px #767676 solid;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0px 1px 7px 4px #00000047, inset 0px 0px 7px 4px #00000004;
 }
-#contact .form form button#bt1:hover{
+#contact .form form input#bt1:hover{
     background-color: rgb(22, 22, 22);
-    color: hsl(45deg 93% 77%);;
+    color: white;
     font-size: larger;
   border: 1px rgb(241, 241, 148) solid;
 }
 @keyframes socend{
     0%{left: 0px;}
-    25% {background-color: hsl(45deg 93% 77%);; left: 200px;}
+    25% {background-color: yellow;; left: 200px;}
     75%{right: 400px;}
 }
 
@@ -374,7 +354,7 @@ grid-column: 1/3;
  }
 footer{
     background: #d7d7d7;
-    color: #3e3e3e;
+    
    
     width: 100vw;
     height: 10vh;
@@ -382,7 +362,6 @@ footer{
 }
 footer p{
     margin: 0px;
-    padding-top: 15px;;
 }
 
 footer ul{
@@ -401,10 +380,6 @@ footer ul li{
     list-style: none;
     margin:0px 10px;
 
-}
-footer ul li a .fab{
-    
-color: #5a4848;
 }
 .about-skills {
     color: #3e3e3e;
@@ -507,11 +482,11 @@ color: #5a4848;
  }
  #services {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: #d7d7d7;
     text-align: center;
-    color: #3e3e3e;
-    margin-top: 0%;
+    color: gray;
+    margin-top: -6%;
     padding-left: 0%;
     grid-column: 1/5;
 }
@@ -541,12 +516,9 @@ color: #5a4848;
   
     
 } 
-#services .srrvices1 h1{
-    padding-top: 6%;
-}
 .srrvices1{
 
-    margin-top: 0px;
+    margin-top: 100px;
 }
 .switch {
     position: fixed;
@@ -614,8 +586,8 @@ input:checked+.slider:before {
     
     header{
         font-family: cursive ;
-        background-color: hsl(0deg 0% 0%);
-        color: hsl(45deg 93% 77%);white;
+        background-color: #969696bd;
+        color: white;
         width: 100%;
         height: 10vh;
         position: fixed;
@@ -654,7 +626,7 @@ header nav ul {
     }
     #about {
         display: flex;
-       
+        height: 176vw;
         width: 100%;
         text-align: center;
         justify-content: flex-start;
@@ -682,8 +654,8 @@ header nav ul {
         width: 100vw;
         padding: 0px;}
     #services{
-            height: 100%;
-            width: 100vw;
+            height: 332vw;
+            width: 100%;
             text-align : center;
         }
       
@@ -715,7 +687,7 @@ header nav ul {
     grid-template-columns: 1fr;
     margin: 0px;
     }
-    #services{    height: 100%;}
+    #services{    height: 331vw;}
     form{
         width: 100%;
       
@@ -743,44 +715,32 @@ header nav ul {
         
      }
      #contact .form form input#fname{
-        width: 330px;
+        width: 400px;
         text-align: center;
         height: 30px;
-        border-radius: 10px;
-    }
-    #contact .form form input#fname3{
-        width: 330px;
-        text-align: center;
-        height: 30px;
-        border-radius: 10px;
-    }
-    #contact .form form textarea#fname2{
-        width: 330px;
-        text-align: center;
-        height: 200px;
         border-radius: 10px;
     }
     #contact .form form textarea#fname{
-        width: 332px;
+        width: 410px;
         height: 200px;
         border-radius: 10px;
     }
     #contact .form form textarea#fname:hover{
-        width:350pxpx;
+        width: 410px;
         height: 200px;
       border: 1px yellow solid;
     }
     #contact .form form text#fname:hover{
-        width: 351pxpx;
+        width: 410px;
         height: 200px;
       border: 1px yellow solid;
     }
     
-    #contact .form form button#bt1{
-        color: rgb(173, 170, 170);
-        color: #dacfcf;
+    #contact .form form input#bt1{
+        color: black;
+        color: #3e3e3e;
         height: 30px;
-        width:315px;
+        width: 400px;
         background-color: #fcfaff00;
         border: 2px #767676 solid;
         margin: 20px;
@@ -793,16 +753,13 @@ header nav ul {
         font-size: larger;
       border: 1px rgb(241, 241, 148) solid;
     }
-    #contact{
-        height: 100%;
-    }
     .switch {
         position: fixed;
         margin-left: 29%;
         display: inline-block;
         width: 60px;
         height: 34px;
-        margin-top: 2%;
+        margin-top: 4%;
     
     }
 
