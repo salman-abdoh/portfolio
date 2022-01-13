@@ -36,7 +36,7 @@
       </div>
       <div class="data">
         <h3>Hello World</h3>
-        <img src="images/IMG-20210619-WA0015.jpg">
+        <img id="salman" src="images/IMG-20210619-WA0015.jpg">
         <h2>I'M</h2>
         <h1> Salman Alwajeeh</h1>
         <h5>"Fullstack Web Developer" </h5>
@@ -49,7 +49,7 @@
         </h5>
       </div>
       <div class="about-skills">
-        <img src="images/customer-satisfaction.png">
+        <img  src="images/customer-satisfaction.png">
         <ul>
           <h1>My Skills</h1>
           <li>
@@ -154,7 +154,7 @@
     </section>
     <section id="contact">
       <div class="form">
-        <form action="index.html" id="form" name="form1" onsubmit="return valid();">
+        <form  id="form" name="form1" onsubmit="return valid();">
           <h1>Contact Me^_^</h1>
           <!--<label for="fname"> name:</label><br>-->
           <input type="text" id="fname" name="fname" placeholder="name" onkeyup="nameval()"><br><br>
@@ -166,7 +166,7 @@
           <textarea type="text" id="fname2" name="fname2" onkeyup="ValidText()"></textarea><br>
           <div id="message2"></div>
 
-          <button type="submit" id="bt1" >"SEND!"</button>
+          <button type="submit" id="bt1"  >"SEND!"</button>
          
         </form>
       </div>
@@ -270,17 +270,23 @@
       }
     }
     function changeTheme() {
-        //var element = document.head.link;
-        //element.classList.toggle(".css");
-        //alert('dark')
+        //
+        //دالة تغير الوضع
+        //التاثير علي الصوره تغير لونها مع تغير الوضع 
+        
         var c=document.getElementById('switch-btn').checked;
         if(c===true){
-          document.getElementById('css').setAttribute('href','style.css')
+          document.getElementById('css').setAttribute('href','style.css');
+          document.getElementById("salman").style.borderColor='#9e9e9e7d';
         }else if(c !==true){
-          document.getElementById('css').setAttribute('href','stylelight.css')
+          document.getElementById('css').setAttribute('href','stylelight.css');
+          document.getElementById("salman").style.borderColor='red';
+         
+         
         }
 
     }
+    
   </script>
 </body>
 
