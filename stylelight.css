@@ -708,7 +708,7 @@ header nav ul {
     grid-template-columns: 1fr;
     margin: 0px;
     }
-    #services{    height: 331vw;}
+    #services{    height: 360vw;}
     form{
         width: 100%;
       
@@ -741,7 +741,13 @@ header nav ul {
         height: 30px;
         border-radius: 10px;
     }
-    #contact .form form textarea#fname{
+    #contact .form form input#fname3{
+        width: 330px;
+        text-align: center;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #contact .form form textarea#fname2{
         width: 330px;
         height: 200px;
         border-radius: 10px;
@@ -779,7 +785,7 @@ header nav ul {
     }
     .switch {
         position: fixed;
-        margin-left: 29%;
+        margin-left: 16%;
         display: inline-block;
         width: 60px;
         height: 34px;

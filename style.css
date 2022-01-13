@@ -798,11 +798,11 @@ header nav ul {
     }
     .switch {
         position: fixed;
-        margin-left: 29%;
+        margin-left: 16%;
         display: inline-block;
         width: 60px;
         height: 34px;
-        margin-top: 2%;
+        margin-top: 3%;
     
     }
 
