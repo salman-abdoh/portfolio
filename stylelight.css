@@ -308,12 +308,18 @@ grid-column: 1/3;
     height: 30px;
     border-radius: 10px;
 }
-#contact .form form textarea#fname{
+#contact .form form input#fname3{
+    width: 400px;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+}
+#contact .form form textarea#fname2{
     width: 410px;
     height: 200px;
     border-radius: 10px;
 }
-#contact .form form textarea#fname:hover{
+#contact .form form textarea#fname2:hover{
     width: 410px;
     height: 200px;
   border: 1px yellow solid;
@@ -324,7 +330,7 @@ grid-column: 1/3;
   border: 1px yellow solid;
 }
 
-#contact .form form input#bt1{
+#contact .form form button#bt1{
     color: black;
     color: #3e3e3e;
     height: 30px;
@@ -335,7 +341,7 @@ grid-column: 1/3;
     border-radius: 10px;
     box-shadow: 0px 1px 7px 4px #00000047, inset 0px 0px 7px 4px #00000004;
 }
-#contact .form form input#bt1:hover{
+#contact .form form button#bt1:hover{
     background-color: rgb(22, 22, 22);
     color: white;
     font-size: larger;

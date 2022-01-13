@@ -615,7 +615,7 @@ input:checked+.slider:before {
     header{
         font-family: cursive ;
         background-color: hsl(0deg 0% 0%);
-        color: hsl(45deg 93% 77%);white;
+        color: hsl(45deg 93% 77%);
         width: 100%;
         height: 10vh;
         position: fixed;
