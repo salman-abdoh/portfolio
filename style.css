@@ -312,6 +312,21 @@ grid-column: 1/3;
     height: 30px;
     border-radius: 10px;
 }
+#contact .form form input#fname3{
+    width: 400px;
+    color: black;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+}
+#contact .form form textarea#fname2{
+    width: 400px;
+    height: 400px;
+    color: black;
+    text-align: center;
+    height: 200px;
+    border-radius: 10px;
+}
 #contact .form form textarea#fname{
     width: 410px;
     color: black;
@@ -671,6 +686,18 @@ header nav ul {
         height: 30px;
         border-radius: 10px;
     }
+    #contact .form form input#fname3{
+        width: 330px;
+        text-align: center;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #contact .form form textarea#fname2{
+        width: 330px;
+        text-align: center;
+        height: 200px;
+        border-radius: 10px;
+    }
     #contact .form form textarea#fname{
         width: 332px;
         height: 200px;
@@ -688,8 +715,8 @@ header nav ul {
     }
     
     #contact .form form input#bt1{
-        color: black;
-        color: #3e3e3e;
+        color: rgb(173, 170, 170);
+        color: #dacfcf;
         height: 30px;
         width:315px;
         background-color: #fcfaff00;

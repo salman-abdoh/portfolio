@@ -30,22 +30,23 @@
       <div class="banner">
       </div>
       <div class="data">
-      <h3>Hello World</h3>
-      <img src="images/IMG-20210619-WA0015.jpg">
-      <h2>I'M</h2>
+        <h3>Hello World</h3>
+        <img src="images/IMG-20210619-WA0015.jpg">
+        <h2>I'M</h2>
         <h1> Salman Alwajeeh</h1>
         <h5>"Fullstack Web Developer" </h5>
-        </div>
+      </div>
     </section>
     <section id="about">
       <div class="intro">
-        <h1 >About Me</h1>
-         <h5> I'm salman abdoh hasan alwageeh ,<br>I'm front and backend develober<br>I'm grapgic desiner
- </h5>
-          </div>
+        <h1>About Me</h1>
+        <h5> I'm salman abdoh hasan alwageeh ,<br>I'm front and backend develober<br>I'm grapgic desiner
+        </h5>
+      </div>
       <div class="about-skills">
         <img src="images/customer-satisfaction.png">
-        <ul><h1>My Skills</h1>
+        <ul>
+          <h1>My Skills</h1>
           <li>
             <i class="fas fa-angle-double-right"></i>
             <span>Team Leader</span>
@@ -70,7 +71,8 @@
       </div>
       <div class="about-expriance">
         <img src="images/interaction.png">
-        <ul><h1>exprinces</h1>
+        <ul>
+          <h1>exprinces</h1>
           <li>
             <i class="fas fa-angle-double-right"></i>
             <span>html</span>
@@ -98,25 +100,25 @@
       <div class="srrvices1">
         <h1>My Services</h1>
         <div class="service">
-        
+
           <div class="service-desc">
             <div><img src="images/images.jfif">
-            <h3>flutter developer</h3>
-          </div>  
-          <div><img src="images/android.png">
-            
+              <h3>flutter developer</h3>
+            </div>
+            <div><img src="images/android.png">
+
               <h3>android developer</h3>
-            </div>  
+            </div>
             <div><img src="images/php.png">
-            
-                <h3>backend developer</h3>
-              </div>  
-              <div><img src="images/github.png">
-            
-                  <h3>github</h3>
-                </div>  
-           
-          
+
+              <h3>backend developer</h3>
+            </div>
+            <div><img src="images/github.png">
+
+              <h3>github</h3>
+            </div>
+
+
           </div>
         </div>
       </div>
@@ -125,37 +127,42 @@
           <div class="service">
             <h1>My Works</h1>
             <div class="service-desc1">
-              
+
               <div><img src="images/2.png">
-            
+
                 <h3>coffee</h3>
-              </div>  
-              
-            <div><img src="images/1.png">
-            
-                <h3>group 1</h3></div>
-                <div><img src="images/ا12.PNG">
-            
-                  <h3>Medicamp</h3>
-              </div>  
+              </div>
+
+              <div><img src="images/1.png">
+
+                <h3>group 1</h3>
+              </div>
+              <div><img src="images/ا12.PNG">
+
+                <h3>Medicamp</h3>
               </div>
             </div>
           </div>
         </div>
-      
+      </div>
+
     </section>
     <section id="contact">
       <div class="form">
-        <form>
+        <form action="index.html" id="form" name="form1" onsubmit="return valid();">
           <h1>Contact Me^_^</h1>
           <!--<label for="fname"> name:</label><br>-->
-  <input type="text" id="fname" name="fname" placeholder="name"><br><br>
-  <!--<label for="fname">subject :</label><br>-->
-  <input type="text" id="fname" name="fname" placeholder="subject"><br><br><BR>
-  <label for="fname">message :</label><br>
-  <textarea type="text" id="fname" name="fname"></textarea><br>
-  <input type="button" id="bt1" onclick="alert('Hello World!')" value="SEND!">
+          <input type="text" id="fname" name="fname" placeholder="name" onkeyup="nameval()"><br><br>
+          <div id="message"></div>
+          <!--<label for="fname">subject :</label><br>-->
+          <input type="text" id="fname3" name="fname3" placeholder="subject" onkeyup="nameval2()"><br><br><BR>
+          <div id="message3"></div>
+          <label for="fname">message :</label><br>
+          <textarea type="text" id="fname2" name="fname2" onkeyup="ValidText()"></textarea><br>
+          <div id="message2"></div>
 
+          <input type="submit" id="bt1" value="SEND!">
+         
         </form>
       </div>
       <div class="image"></div>
@@ -175,7 +182,89 @@
       </footer>
     </section>
   </main>
- 
+  <script>
+
+    function valid() {
+      var form = document.getElementById("form");
+      var name = document.form1.fname.value;
+      var name2 = document.form1.fname3.value;
+
+      var textarea1 = document.getElementById("fname2;").value;
+
+
+      var strongRegex = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})");
+      console.log(strongRegex);
+      if (name == "" && name2 == "" && textarea1 == "" ) {
+                document.getElementById("message").innerHTML = "<h6 style='color:black;'>name can't be blank, this file requaiyellow</h6>";
+                document.getElementById("message3").innerHTML = "<h6 style='color:black;'>subject can't be blank, this file requaiyellow</h6>";
+                document.getElementById("message2").innerHTML = "<h6 style='color:black;'>text can't be blank, this file requaiyellow</h6>";
+               
+
+                return false;}
+      if (name == "" ) {
+        document.getElementById("message").innerHTML = "<h6 style='color:white;'>name can't be blank, this file requaiyellow</h6>";
+
+
+
+
+        return false;
+      }
+      if (name2 == "" ) {
+        document.getElementById("message3").innerHTML = "<h6 style='color:white;'>subject can't be blank, this file requaiyellow</h6>";
+
+
+
+
+        return false;
+      }
+      else if (textarea1 == "") {
+
+        document.getElementById("message2").innerHTML = "<h6 style='color:white;'>textarea can't be blank, this file requaiyellow</h6>";
+        return false;
+
+
+
+      }
+
+    }
+    function nameval() {
+      var name = document.getElementById('fname').value;
+      var minNumberofChars = 3;
+      var maxNumberofChars = 15;
+
+      if (name.length < minNumberofChars || name.length > maxNumberofChars) {
+        document.getElementById('message').innerHTML = "name should contain atleast one 3 character and less than 8";
+        return false;
+      } else {
+        document.getElementById('message').innerHTML = "";
+        return true;
+      }
+    }
+    function nameval2() {
+      var name2 = document.getElementById('fname3').value;
+      var minNumberofChars = 10;
+      var maxNumberofChars = 20;
+
+      if (name2.length < minNumberofChars || name2.length > maxNumberofChars) {
+        document.getElementById('message3').innerHTML = "subject should contain atleast one 10 character and less than 30";
+        return false;
+      } else {
+        document.getElementById('message3').innerHTML = "";
+        return true;
+      }
+    }
+    function ValidText() {
+      var textarea = document.getElementById('fname2').value;
+      var len = 20;
+      if (textarea.length < len || textarea.length == len) {
+        document.getElementById('message2').innerHTML = "textarea should be mor than 20 char.";
+        return false;
+      } else {
+        document.getElementById('message2').innerHTML = "";
+        return true;
+      }
+    }
+  </script>
 </body>
 
 </html>
