@@ -1,4 +1,6 @@
-
+body{
+    box-sizing: border-box;
+}
 @media (max-width:600px){
     header{
         font-family: cursive ;
@@ -136,6 +138,9 @@ header nav ul {
  }
 body{margin: 0px;padding: 0px;
 width: 100%;}
+main{
+    width: 100vw;
+}
 header{
     font-family: cursive ;
     background-color: #969696bd;
@@ -269,20 +274,20 @@ grid-column: 1/3;
 }
 
 #contact {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background: #d7d7d7;
     text-align: center;
     color: gray;
-    margin-top: -6%;
+    margin-top: 0;
     padding-left: 0%;
     grid-column: 1/5;
 }
 #contact .form{
     width: 100%;
-   
+    padding-bottom: 50px;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 
@@ -314,8 +319,14 @@ grid-column: 1/3;
     height: 30px;
     border-radius: 10px;
 }
-#contact .form form textarea#fname2{
+#contact .form form textarea#fname{
     width: 410px;
+   
+    height: 200px;
+    border-radius: 10px;
+}
+#contact .form form textarea#fname2{
+    width: 400px;
     height: 200px;
     border-radius: 10px;
 }
@@ -368,6 +379,7 @@ footer{
 }
 footer p{
     margin: 0px;
+    padding-top: 15px;
 }
 
 footer ul{
@@ -492,7 +504,7 @@ footer ul li{
     background: #d7d7d7;
     text-align: center;
     color: gray;
-    margin-top: -6%;
+    margin-top: 0;
     padding-left: 0%;
     grid-column: 1/5;
 }
@@ -522,9 +534,12 @@ footer ul li{
   
     
 } 
+#services .srrvices1 h1{
+    padding-top: 6%;
+}
 .srrvices1{
 
-    margin-top: 100px;
+    margin-top: 0px;
 }
 .switch {
     position: fixed;
@@ -632,7 +647,7 @@ header nav ul {
     }
     #about {
         display: flex;
-        height: 176vw;
+        
         width: 100%;
         text-align: center;
         justify-content: flex-start;
@@ -660,8 +675,8 @@ header nav ul {
         width: 100vw;
         padding: 0px;}
     #services{
-            height: 332vw;
-            width: 100%;
+        height: 100%;
+        width: 100vw;
             text-align : center;
         }
       
@@ -721,18 +736,18 @@ header nav ul {
         
      }
      #contact .form form input#fname{
-        width: 400px;
+        width: 330px;
         text-align: center;
         height: 30px;
         border-radius: 10px;
     }
     #contact .form form textarea#fname{
-        width: 410px;
+        width: 330px;
         height: 200px;
         border-radius: 10px;
     }
     #contact .form form textarea#fname:hover{
-        width: 410px;
+        width: 350px;
         height: 200px;
       border: 1px yellow solid;
     }
@@ -746,7 +761,7 @@ header nav ul {
         color: black;
         color: #3e3e3e;
         height: 30px;
-        width: 400px;
+        width:315px;
         background-color: #fcfaff00;
         border: 2px #767676 solid;
         margin: 20px;
@@ -758,6 +773,9 @@ header nav ul {
         color: white;
         font-size: larger;
       border: 1px rgb(241, 241, 148) solid;
+    }
+    #contact{
+        height: 100%;
     }
     .switch {
         position: fixed;

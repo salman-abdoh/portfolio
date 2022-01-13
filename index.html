@@ -154,7 +154,7 @@
     </section>
     <section id="contact">
       <div class="form">
-        <form  id="form" name="form1" onsubmit="return valid();">
+        <form  id="form" name="form1" onsubmit=" valid();">
           <h1>Contact Me^_^</h1>
           <!--<label for="fname"> name:</label><br>-->
           <input type="text" id="fname" name="fname" placeholder="name" onkeyup="nameval()"><br><br>
@@ -166,7 +166,7 @@
           <textarea type="text" id="fname2" name="fname2" onkeyup="ValidText()"></textarea><br>
           <div id="message2"></div>
 
-          <button type="submit" id="bt1"  >"SEND!"</button>
+          <button type="submit" id="bt1" onsubmit="return valid();" >"SEND!"</button>
          
         </form>
       </div>
@@ -196,38 +196,29 @@
 
       var textarea1 = document.getElementById("fname2;").value;
 
-
       var strongRegex = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})");
       console.log(strongRegex);
-      if (name == "" && name2 == "" && textarea1 == "" ) {
+      if (name==" " && name2==" " && textarea1==" " ) {
                 document.getElementById("message").innerHTML = "<h6 style='color:white;'>name can't be blank, this file requaiyellow</h6>";
                 document.getElementById("message3").innerHTML = "<h6 style='color:black;'>subject can't be blank, this file requaiyellow</h6>";
                 document.getElementById("message2").innerHTML = "<h6 style='color:black;'>text can't be blank, this file requaiyellow</h6>";
                
 
                 return false;}
-      if (name == "" ) {
+      if (name==" " ) {
         document.getElementById("message").innerHTML = "<h6 style='color:white;'>name can't be blank, this file requaiyellow</h6>";
 
-
-
-
         return false;
       }
-      if (name2 == "" ) {
+      if (name2==" " ) {
         document.getElementById("message3").innerHTML = "<h6 style='color:white;'>subject can't be blank, this file requaiyellow</h6>";
 
-
-
-
         return false;
       }
-      else if (textarea1 == "") {
+      else if (textarea1==" ") {
 
         document.getElementById("message2").innerHTML = "<h6 style='color:white;'>textarea can't be blank, this file requaiyellow</h6>";
         return false;
-
-
 
       }
 
