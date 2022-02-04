@@ -5,8 +5,7 @@
 <head>
   <title>MY Portfolio</title>
   <meta charset="UTF-8">
-  <meta name="html" content="html houmework">
-  <meta name="keywords" content="Iframe, meta, layout">
+  <meta name="keywords" content="salman,services, work, contact">
   <meta name="author" content="salman">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link id="css" href="style.css" rel="stylesheet">
@@ -157,13 +156,13 @@
         <form  id="form" name="form1" onsubmit=" valid();">
           <h1>Contact Me^_^</h1>
           <!--<label for="fname"> name:</label><br>-->
-          <input type="text" id="fname" name="fname" placeholder="name" onkeyup="nameval()"><br><br>
-          <div id="message"></div>
+          <input type="text" id="fname" name="fname" placeholder="name" onkeyup="nameval()"><br>
+          <div id="message"></div><br><br>
           <!--<label for="fname">subject :</label><br>-->
-          <input type="text" id="fname3" name="fname3" placeholder="subject" onkeyup="nameval2()"><br><br><BR>
-          <div id="message3"></div>
-          <label for="fname">message :</label><br>
-          <textarea type="text" id="fname2" name="fname2" onkeyup="ValidText()"></textarea><br>
+          <input type="text" id="fname3" name="fname3" placeholder="subject" onkeyup="nameval2()"><br>
+          <div id="message3"></div><br>
+         <br>
+          <textarea type="text" id="fname2" name="fname2" onkeyup="ValidText()" placeholder="massage"></textarea><br>
           <div id="message2"></div>
 
           <button type="submit" id="bt1" onsubmit="return valid();" >"SEND!"</button>
@@ -229,7 +228,7 @@
       var maxNumberofChars = 15;
 
       if (name.length < minNumberofChars || name.length > maxNumberofChars) {
-        document.getElementById('message').innerHTML = "name should contain atleast one 3 character and less than 8";
+        document.getElementById('message').innerHTML = "name should contain at least 3 character and less than 15.";
         return false;
       } else {
         document.getElementById('message').innerHTML = "";
@@ -242,7 +241,7 @@
       var maxNumberofChars = 20;
 
       if (name2.length < minNumberofChars || name2.length > maxNumberofChars) {
-        document.getElementById('message3').innerHTML = "subject should contain atleast one 10 character and less than 30";
+        document.getElementById('message3').innerHTML = "subject should contain at least 10 character and less than 30.";
         return false;
       } else {
         document.getElementById('message3').innerHTML = "";
@@ -253,7 +252,7 @@
       var textarea = document.getElementById('fname2').value;
       var len = 20;
       if (textarea.length < len || textarea.length == len) {
-        document.getElementById('message2').innerHTML = "textarea should be mor than 20 char.";
+        document.getElementById('message2').innerHTML = "textarea should be more than 20 char.";
         return false;
       } else {
         document.getElementById('message2').innerHTML = "";
